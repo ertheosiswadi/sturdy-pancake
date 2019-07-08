@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Montserrat&display=swap');
+
+body, #home {
+    background-color: #58b792;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+a.navbar-brand {
+    color: white !important;
+    font-family: 'Permanent Marker', cursive !important;
+    font-size: 190%;
+}
+
+nav.bg-dark a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav.bg-dark a:not(.dropdown-item) {
+    color: white !important;
+}
